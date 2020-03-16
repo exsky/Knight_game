@@ -1,0 +1,10 @@
+GAME-START
+R:S
+r:E
+Red:East
+red:south
+Y:N
+Y:N
+Y:E
+Y:E
+GAME-END

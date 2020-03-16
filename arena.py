@@ -205,3 +205,16 @@ class Arena(object):
         # bottom border
         # print('  _ '*8+' ')
         return
+
+    def final_state(self):
+        filename = 'final_state.json'
+        content = {}
+
+        for kn in self.knight_chess.values():
+            pos = list(kn['position']) if kn['position'] else None
+            knight = kn['knight']
+            stat = knight.status
+            equ = knight.equip
+            atk_pts, def_pts = self.get_pts(knight.name)
+            content[knight.name] = [pos, stat, equ, atk_pts, def_pts]
+        return content
