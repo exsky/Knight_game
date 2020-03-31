@@ -1,0 +1,39 @@
+{
+    "red": [
+        [
+            2,
+            0
+        ],
+        "LIVE",
+        null,
+        1,
+        1
+    ],
+    "yellow": [
+        null,
+        "DROWNED",
+        null,
+        0,
+        0
+    ],
+    "blue": [
+        [
+            7,
+            1
+        ],
+        "LIVE",
+        null,
+        1,
+        1
+    ],
+    "green": [
+        [
+            6,
+            7
+        ],
+        "LIVE",
+        null,
+        1,
+        1
+    ]
+}

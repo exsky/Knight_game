@@ -1,9 +1,19 @@
 # Knight Battle Game
 
-## Start Game
+## Start Game without Docker
 * Run the command below to start the game.
+If you don't have the Docker environment, you can run the game directly.
+
 ```
+cd src
 python game.py
+```
+
+## Run in Docker
+I also provide the Dockerfile that you can run the game directly.
+```
+make build
+make game
 ```
 
 ## Explaination of the game design
